@@ -1,0 +1,45 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "This is myapp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Eroor: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "engines": {
+    "node": "18.12.1",
+    "npm": "8.19.2"
+  },
+  "author": "chezB",
+  "license": "ISC",
+  "dependencies": {
+    "ajax": "^0.0.4",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dateformat": "^4.6.3",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-partials": "^0.3.0",
+    "express-session": "^1.17.3",
+    "googleapis": "^88.2.0",
+    "jquery": "^3.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.7.2",
+    "mongoose": "^5.13.10",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.7.0",
+    "pug": "^3.0.2",
+    "save": "^2.4.0",
+    "scrollreveal": "^4.0.9",
+    "tether": "^1.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
